@@ -9,7 +9,7 @@
     "@hashicorp/nextjs-scripts": "^6.2.0-9",
     "@hashicorp/react-button": "^2.1.6",
     "@hashicorp/react-case-study-slider": "^2.0.10",
-    "@hashicorp/react-consent-manager": "^2.0.6",
+    "@hashicorp/react-consent-manager": "^2.1.10",
     "@hashicorp/react-content": "^3.0.0-0",
     "@hashicorp/react-docs-sidenav": "^3.0.4",
     "@hashicorp/react-docs-sitemap": "^1.0.0",
