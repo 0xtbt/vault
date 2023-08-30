@@ -26,7 +26,9 @@
     "build:storybook": "build-storybook -s ../pkg/web_ui",
     "storybook": "start-storybook -p 6006 -s ../pkg/web_ui",
     "deploy:storybook": "yarn build && yarn build:storybook",
-    "gen-story-md": "node scripts/gen-story-md.js"
+    "gen-story-md": "node scripts/gen-story-md.js",
+    "prepare": "yarn run snyk-protect",
+    "snyk-protect": "snyk-protect"
   },
   "lint-staged": {
     "*.js": [
@@ -181,5 +183,9 @@
       "lib/replication",
       "lib/service-worker-authenticated-download"
     ]
+  },
+  "snyk": true,
+  "dependencies": {
+    "@snyk/protect": "latest"
   }
 }
